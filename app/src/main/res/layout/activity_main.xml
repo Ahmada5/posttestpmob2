@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/Warnautama">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="私のプロフィール"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/warnaT2"
+        android:textStyle="italic"
+        android:background="@drawable/background"
+    />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="150dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:background="@color/Warnakedua"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ahmada"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Achmad soleh"
+            android:textSize="30dp"
+            android:layout_marginTop="462dp"
+            android:textColor="@color/warnaT2"
+            android:textStyle="bold"
+            android:background="@drawable/background"
+         />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1800018279"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/warnaT2"
+            android:textStyle="bold"
+            android:background="@drawable/background"
+         />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Playing Games"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/warnaT2"
+            android:textStyle="bold"
+            android:background="@drawable/background"
+         />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="if you feel inadequate, just accept it and learn"
+            android:textSize="12dp"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/warnaT1"
+        />
+    </LinearLayout>
+</RelativeLayout>
+
+
